@@ -11,3 +11,8 @@ Feel free to explore my portfolio website to see some of my previous work.
 Enjoy!
 
 - [Deployed Website is HERE](https://...)
+
+
+# Personal Memo about Development
+
+- home.css: "@keyframes profile__animate" ...The animation starts about 1s later.
