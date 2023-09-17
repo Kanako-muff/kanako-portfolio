@@ -1,0 +1,45 @@
+.skills__group{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.skills__data{
+    text-align: center;
+}
+
+
+/* Logo Colors
+=============================================================== */
+.html{
+    color: #FC4909;
+}
+.css{
+    color: #2096F3;
+}
+.scss{
+    color: #CE649A;
+}
+.javascript{
+    color: #FFDF00;
+}
+.typescript{
+    color: #3077C6;
+}
+.react{
+    color: #61D9FB;
+}
+.redux{
+    color: #764abc;
+}
+.tailwind{
+    color: #37BCF8;
+}
+.bootstrap{
+    color: #7330f9;
+}
+.github{
+    color: #1F2328;
+}
+.terminal{
+    color: #272A37;
+}
