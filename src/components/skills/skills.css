@@ -3,12 +3,39 @@
     justify-content: center;
     gap: 1rem;
 }
+.skills__group{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skills__title,
+.skills__title2,
+.skills_frontend,
+.skills_backend,
+.other_4_webDev,
+.skills_design,
 .skills__data{
     text-align: center;
 }
+.skills__title{
+    margin-bottom: 1.5rem;
+}
+.skills__box{
+    border: solid 3px #ccc;
+    padding: 2rem;
+}
+.skills__inner-box{
+    border: dotted 3px #ccc;
+    border-radius: 1.5rem;
+    padding: 1.5rem 1.3rem 2rem 1.3rem;
+    margin-bottom: 1.5rem;
+}
+.skills__title2{
+    margin-bottom: 1rem;
+}
 
 
-/* Logo Colors
+/* Logos
 =============================================================== */
 .html{
     color: #FC4909;
@@ -31,6 +58,15 @@
 .redux{
     color: #764abc;
 }
+.nextjs{
+    width: 45px;
+}
+.mui{
+    width: 45px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+
+}
 .tailwind{
     color: #37BCF8;
 }
@@ -42,4 +78,43 @@
 }
 .terminal{
     color: #272A37;
+}
+.nodejs{
+    color: #6da65d;
+}
+.express{
+    width: 45px;
+}
+.mongodb{
+    color: #5baf50;
+}
+.mongoose{
+    width: 58px;
+    padding-top: 1px;
+    margin-bottom: -14px;
+}
+.grafbase{
+    width: 40px;
+    margin-top: 1px;
+    padding-bottom: 2px;
+}
+.java{
+    margin-top: -4px;
+    padding-bottom: 4px;
+}
+.postgressql{
+    color: #336790;
+}
+.mysql{
+    color: #01758f;
+}
+.vercel{
+    width: 45px;
+    margin-top: 4px;
+    padding-bottom: 2px;
+}
+.render{
+    width: 55px;
+    margin-top: 18px;
+    margin-bottom: 13px;
 }

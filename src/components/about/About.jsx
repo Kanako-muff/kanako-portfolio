@@ -15,8 +15,7 @@ const About = () => {
                     Hello, I'm Kanako.<br /><br />
                     I'm a web developer with a background in web design. I have prior experience working as a web designer, where I created graphics using Photoshop/Illustrator and coded with HTML/CSS/Javascript.<br /><br />
                     Subsequently, I pursued comprehensive front-end to back-end development training at CICCC college in Vancouver. As a result, I have transitioned into a full-stack developer while still leveraging my design skills.<br /><br />
-                    Feel free to explore my portfolio website to see some of my previous work. <br /><br />
-                    Enjoy!
+                    Feel free to explore my portfolio website to see some of my previous work. Enjoy!<br />
                 </p>
                 <a download="" href={Resume} className="button button--flex">
                     Download Resume&nbsp;

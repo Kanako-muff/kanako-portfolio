@@ -16,3 +16,5 @@ Enjoy!
 # Personal Memo about Development
 
 - home.css: "@keyframes profile__animate" ...The animation starts about 1s later.
+- Tech experience: 3+ years, Language: English, Japanese, (Chinese?)
+- Background: ダークは夜空をイメージして、星か輝き流れ星が流れているアニメーション。春夏秋冬季節によってライトモードの背景が変わるのもいいかも？（てゆうか、時間に連動して勝手に暗くなったり明るくなったりするのもアリ◎）「季節ごとのアクティビティを楽しむのが好き！このサイトも季節ごとに雰囲気かわるから楽しんでね！」
