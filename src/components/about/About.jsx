@@ -19,7 +19,7 @@ const About = () => {
                 </p>
                 <a download="" href={Resume} className="button button--flex">
                     Download Resume&nbsp;
-                    <i class="fa-regular fa-file"></i>
+                    <i className="fa-regular fa-file"></i>
                 </a>
             </div>
         </div>

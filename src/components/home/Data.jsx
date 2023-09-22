@@ -8,7 +8,7 @@ const Data = () => {
         <p className="home__description">I transitioned from a web designer, where I used Photoshop/Illustrator and coded with HTML/CSS/JavaScript, to a full-stack developer through training at a Cornerstone College in Vancouver.</p>
         <a href="#contact" className="button button--flex">
             Say Hello&nbsp;
-            <i class="fa-regular fa-paper-plane"></i>
+            <i className="fa-regular fa-paper-plane"></i>
         </a>
     </div>
   )
