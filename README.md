@@ -18,4 +18,5 @@ Enjoy!
 - home.css: "@keyframes profile__animate" ...The animation starts about 1s later.
 - Tech experience: 3+ years, Language: English, Japanese, (Chinese?)
 - work.css: /* For Medium Devices */　要るかなぁ？
-- Background: ダークは夜空をイメージして、星か輝き流れ星が流れているアニメーション。春夏秋冬季節によってライトモードの背景が変わるのもいいかも？（てゆうか、時間に連動して勝手に暗くなったり明るくなったりするのもアリ◎）「季節ごとのアクティビティを楽しむのが好き！このサイトも季節ごとに雰囲気かわるから楽しんでね！」
+- Contact.jsx: Toastifyの色、最終的な背景に合わせて変える。空欄で送れないようにする。
+- Background: ダークモードは夜空をイメージして、星か輝き流れ星が流れているアニメーション。
