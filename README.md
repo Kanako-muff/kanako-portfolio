@@ -13,6 +13,15 @@ Enjoy!
 - [Deployed Website is HERE](https://...)
 
 
+# Technologies
+
+- HTML
+- CSS
+- Javascript
+- React
+- EmailJS
+
+
 # Personal Memo about Development
 
 - home.css: "@keyframes profile__animate" ...The animation starts about 1s later.
