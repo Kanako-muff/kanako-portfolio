@@ -19,6 +19,8 @@ Enjoy!
 - CSS
 - Javascript
 - React
+- Three.js
+- fiber
 - EmailJS
 
 
