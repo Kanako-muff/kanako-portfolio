@@ -1,0 +1,22 @@
+.slogan {
+    font-size: 10em;
+    /* font-weight: 400; */
+    letter-spacing: -0.05em;
+    line-height: 0.7em;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow: 1px 0px 35px #383838;
+  }
+
+  .slogan_1{
+    position: absolute;
+    top: 60vh;
+    left: 1.5em;
+  }
+  
+  .slogan_2{
+    position: absolute;
+    top: 140vh;
+    left: 40vw;
+  }
