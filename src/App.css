@@ -13,8 +13,11 @@
 
 /* var: Font and Typography
 =============================================================== */
-  --body-font: 'Montserrat', sans-serif;
-  /* --body-font: 'Poppins', sans-serif; */
+  /* --body-font: 'Montserrat', sans-serif; */
+  /* --body-font: "laca", sans-serif; */
+  --body-font: "laca-text", sans-serif;
+  --body-font-jpn: "source-han-sans-japanese", sans-serif;
+
 
   --big-font-size: 3.5rem;
   --h1-font-size: 2.25rem;
