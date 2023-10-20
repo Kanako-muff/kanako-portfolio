@@ -2,8 +2,26 @@ import React from 'react'
 
 const Webdevelopment = () => {
   return (
-    <div className="skill__content">
-        <h3 className="skills__title">Web development</h3>
+    <div className="skill__content p-3">
+        {/* Index UI */}
+        <ul className="nav nav-tabs">
+            <li className="nav-item">
+                <a href="#skill_1" className="skills__title nav-link active" data-bs-toggle="tab"><h3>Web Development</h3></a>
+            </li>
+            <li className="nav-item">
+                <a href="#skill_2" className="skills__title nav-link" data-bs-toggle="tab"><h3>Web/Graphic Design</h3></a>
+            </li>
+        </ul>
+
+        {/* Skills Content */}
+        <div className="tab-content">
+            <div id="skill_1" className="tab-pane active">
+                <img src="https://placehold.jp/720x405.png" className="img-fluid" alt="" />
+            </div>
+            <div id="skill_2" className="tab-pane">
+                <img src="https://placehold.jp/700x405.png" className="img-fluid" alt="" />
+            </div>
+        </div>
         <div className="skills__box">
 
             {/* Front-End Skills
