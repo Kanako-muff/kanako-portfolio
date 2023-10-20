@@ -4,23 +4,26 @@ import Design from './Design'
 
 const Tab = () => {
   return (
-    <div className="skill__content p-3">
-        {/* Index UI */}
-        <ul className="nav nav-tabs horizontal">
-            <li className="nav-item">
-                <a href="#skill_1" className="skills__title nav-link active" data-bs-toggle="tab"><h3>Web Development</h3></a>
-            </li>
-            <li className="nav-item">
-                <a href="#skill_2" className="skills__title nav-link" data-bs-toggle="tab"><h3>Web/Graphic Design</h3></a>
-            </li>
-        </ul>
+    <div className="skill__content">
+                
+        {/* Tab UI */}
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                    Web Dev
+                </button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                    Design
+                </button>
+            </div>
+        </nav>
 
         {/* Skills Content */}
-        <div className="tab-content">
-            <div id="skill_1" className="tab-pane active">
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                 <WebDev />
             </div>
-            <div id="skill_2" className="tab-pane">
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                 <Design />
             </div>
         </div>
