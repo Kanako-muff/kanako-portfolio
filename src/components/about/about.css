@@ -1,3 +1,19 @@
+.about{
+    /* background-color: #455c75;
+    background-image: url(./../../assets/bg-about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+/* section#about {
+    padding-bottom: 0;
+} */
+
+.about h2, .about span, .about p{
+    color: #fff;
+}
+
 .about__container{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;

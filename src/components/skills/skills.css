@@ -38,6 +38,11 @@
     justify-content: space-evenly !important;
 }
 
+.skills h2, .skills span, .skills p{
+    color: #fff;
+}
+
+
 
 
 /* Logos

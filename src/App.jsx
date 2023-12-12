@@ -8,17 +8,17 @@ import Work from './components/work/Work'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Scrollup from './components/scrollup/Scrollup'
-import Images from './components/threejs/Images'
-import Slogan from './components/threejs/Slogan'
-import { Canvas } from '@react-three/fiber'
-import { ScrollControls, Scroll } from '@react-three/drei'
+// import Images from './components/threejs/Images'
+// import Slogan from './components/threejs/Slogan'
+// import { Canvas } from '@react-three/fiber'
+// import { ScrollControls, Scroll } from '@react-three/drei'
 
 
 function App() {
   return (
     <>
       {/* ▼▽▼ Three.js Section ▼▽▼ */}
-      <Canvas>
+      {/* <Canvas>
         <ScrollControls pages={2} dumping={3}>
           <Scroll>
             <Images />
@@ -27,16 +27,18 @@ function App() {
             <Slogan />
           </Scroll>
         </ScrollControls>
-      </Canvas>
+      </Canvas> */}
       {/* ▲△▲ Three.js Section ▲△▲ */}
       <Header />
-      <main className='main'>
+      {/* <main className='main stars'> */}
         <Home />
-        <About />
-        <Skills />
+        <div className='aboutSkills'>
+          <About />
+          <Skills />
+        </div>
         <Work />
         <Contact />
-      </main>
+      {/* </main> */}
       <Footer />
       <Scrollup />
     </>
