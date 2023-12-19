@@ -19,9 +19,9 @@ const Data = () => {
 
   return (
     <div className="home__data">
-        <h1 className="home__title">Kanako Kawakami</h1>
+        <h1 className="home__title">KATE KAWAKAMI</h1>
         <span className="home__subtitle" ref={el} />
-        <p className="home__description">I transitioned from a web designer, where I used Photoshop/Illustrator and coded with HTML/CSS/JavaScript, to a full-stack developer through training at a Cornerstone College in Vancouver.</p>
+        <p className="home__description">Loving front-end development, from design to coding. Specialize in simple, easy-to-understand, and stylish designs. Passionate in React, Photoshop, Illustrator and Figma.</p>
         <a href="#contact" className="button button--flex">
             Say Hello&nbsp;
             <i className="fa-regular fa-paper-plane"></i>

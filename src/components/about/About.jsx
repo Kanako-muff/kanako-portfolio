@@ -12,10 +12,11 @@ const About = () => {
             <img src={AboutImg} alt="" className="about__img" />
             <div className="about__data">
                 <p className="about__description">
-                    Hello, I'm Kanako.<br /><br />
-                    I'm a web developer with a background in web design. I have prior experience working as a web designer, where I created graphics using Photoshop/Illustrator and coded with HTML/CSS/Javascript.<br /><br />
-                    Subsequently, I pursued comprehensive front-end to back-end development training at CICCC college in Vancouver. As a result, I have transitioned into a full-stack developer while still leveraging my design skills.<br /><br />
-                    Feel free to explore my portfolio website to see some of my previous work. Enjoy!<br />
+                    Hello, I'm Kate.<br /><br />
+                    In my previous role, I worked as a web designer for an apparel e-commerce site, using HTML/CSS/Javascript/Photoshop. <br /><br />
+                    Later, at a college in Vancouver, I studied Frontend (HTML/CSS/SCSS/Javascript/React/Redux) and Backend (Java/SQL/Node.js/Mongo.db) development.<br /><br />
+                    While I studied both, my passion lies in frontend. Starting as a web designer, I've transitioned into a career focused on creating engaging user interfaces.<br /><br />
+                    Feel free to explore my portfolio website to see some of my previous work.<br />
                 </p>
                 <a download="" href={Resume} className="button button--flex">
                     Download Resume&nbsp;
