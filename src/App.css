@@ -11,10 +11,9 @@
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
 
+
 /* var: Font and Typography
 =============================================================== */
-  /* --body-font: 'Montserrat', sans-serif; */
-  /* --body-font: "laca", sans-serif; */
   --body-font: "laca-text", sans-serif;
   --body-font-jpn: "source-han-sans-japanese", sans-serif;
 

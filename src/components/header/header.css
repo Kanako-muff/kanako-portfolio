@@ -50,6 +50,15 @@
 }
 
 
+/* Language Switch
+=============================================================== */
+/* .btn_color{
+  background-color: var(--bs-btn-active-bg);
+  border-color: var(--bs-btn-active-border-color);
+} */
+
+
+
 /* Active Link
 =============================================================== */
 .hover-underline-animation:after {
